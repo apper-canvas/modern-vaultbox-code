@@ -39,7 +39,7 @@ export const update = async (id, documentData) => {
   return { ...documents[index] }
 }
 
-export const delete = async (id) => {
+export const deleteDocument = async (id) => {
   await delay(250)
   const index = documents.findIndex(doc => doc.id === id)
   if (index === -1) {
