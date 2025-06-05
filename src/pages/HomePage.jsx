@@ -2,10 +2,9 @@ import { useState, useEffect } from 'react'
 import { toast } from 'react-toastify'
 import { motion, AnimatePresence } from 'framer-motion'
 import ApperIcon from '../components/ApperIcon'
-import MainFeature from '../components/MainFeature'
+import HomePageTemplate from '../components/templates/HomePageTemplate'
 import * as documentService from '../services/api/documentService'
 import * as categoryService from '../services/api/categoryService'
-
 const Home = () => {
   const [documents, setDocuments] = useState([])
   const [categories, setCategories] = useState([])
@@ -239,10 +238,10 @@ const Home = () => {
         </motion.aside>
 
         {/* Main Content */}
-        <main className="flex-1 md:ml-0 p-6">
+<main className="flex-1 md:ml-0 p-6">
           {/* Upload Section */}
           <div className="mb-8">
-            <MainFeature onDocumentUpload={handleDocumentUpload} categories={categories} />
+            <HomePageTemplate onDocumentUpload={handleDocumentUpload} categories={categories} />
           </div>
 
           {/* Document Grid */}
