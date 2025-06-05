@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "IDs",
+    "icon": "CreditCard",
+    "color": "#8B5CF6",
+    "documentCount": 4
+  },
+  {
+    "id": 2,
+    "name": "Education",
+    "icon": "GraduationCap",
+    "color": "#3B82F6",
+    "documentCount": 3
+  },
+  {
+    "id": 3,
+    "name": "Finance",
+    "icon": "DollarSign",
+    "color": "#10B981",
+    "documentCount": 4
+  },
+  {
+    "id": 4,
+    "name": "Medical",
+    "icon": "Heart",
+    "color": "#EF4444",
+    "documentCount": 3
+  },
+  {
+    "id": 5,
+    "name": "Others",
+    "icon": "Folder",
+    "color": "#6B7280",
+    "documentCount": 2
+  }
+]
